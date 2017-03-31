@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alejandro.anif.MainActivity">
+
+    <TextView
+        android:text="@string/indice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:text="@string/peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="@string/estatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView4"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="@string/calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/button"
+        android:onClick="calcular"
+        android:layout_below="@+id/valor2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/valor1"
+        android:hint="@string/kilos"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/valor2"
+        android:hint="@string/metros"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/valor1"
+        android:layout_alignStart="@+id/valor1" />
+
+    <TextView
+        android:text="@string/condicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:id="@+id/resultado"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/valores"
+        android:textSize="18sp"
+        android:textColor="?attr/colorPrimary"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/resultado"
+        android:layout_alignLeft="@+id/resultado"
+        android:layout_alignStart="@+id/resultado" />
+
+    <Button
+        android:text="@string/acercaDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/resultado"
+        android:layout_toEndOf="@+id/resultado"
+        android:layout_marginBottom="19dp"
+        android:id="@+id/button2"
+        android:onClick="acercade" />
+
+    <Button
+        android:text="@string/salirapk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:id="@+id/button4"
+        android:onClick="salir" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        android:onClick="guardarBoton"
+        android:text="Button"
+        tools:text="Guardar" />
+
+</RelativeLayout>

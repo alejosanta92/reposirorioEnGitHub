@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/acercaOpcion"
+        android:id="@+id/acercade" />
+    <item android:title="@string/opcion2"
+        android:id="@+id/opcion2" />
+    <item android:title="@string/salirMenu"
+        android:id="@+id/salirImc" />
+</menu>

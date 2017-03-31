@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">I.M.C</string>
+    <string name="condicion">Condicion</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="estatura">Estatura:</string>
+    <string name="metros">metros</string>
+    <string name="peso">Peso:</string>
+    <string name="kilos">kilos</string>
+    <string name="indice">Indice de masa corporal</string>
+    <string name="acercaOpcion">Acerca de:</string>
+    <string name="opcion2">opcion 2</string>
+    <string name="salirMenu">Salir</string>
+    <string name="realizado">Realizado por:</string>
+    <string name="salir">Salir</string>
+    <string name="acercaDe">Acerca de</string>
+    <string name="delgadez">Delgadez severa</string>
+    <string name="normal">NORMAL</string>
+    <string name="sobrepeso">SOBREPESO</string>
+    <string name="obesidadTipo1">OBESIDAD TIPO 1</string>
+    <string name="obesidadTipo2">OBESIDAD TIPO 2</string>
+    <string name="obesidadTipo3">OBESIDAD TIPO 3</string>
+    <string name="segundaOpcion">Se seleccionó la segunda opción</string>
+    <string name="terceraOpcion">Se seleccionó la tercer opción</string>
+    <string name="DelgadezNoMuyPronunciada">Delgadez no muy pronunciada</string>
+    <string name="delgadezModerada">Delgadez moderada</string>
+    <string name="salirapk">SALIR</string>
+    <string name="opcion3"></string>
+</resources>
